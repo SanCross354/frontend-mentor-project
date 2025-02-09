@@ -10,7 +10,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Author](#author)
 
@@ -23,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-Solution URL : (https://github.com/SanCross354/frontend-mentor-project)
-Live Site URL : (xx)
+- Solution URL : (https://github.com/SanCross354/frontend-mentor-project)
+- Live Site URL :(https://qr-code-wildan.netlify.app)
 
 ## My Process
 
