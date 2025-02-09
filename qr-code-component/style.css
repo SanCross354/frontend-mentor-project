@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* align-items is a property that only works inside Flexbox (display: flex) */
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 320px;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(216, 15%, 48%);
+    text-align: center;
+    padding: 0 0.49rem;
+}
+
+.attribution {
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    .card {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
